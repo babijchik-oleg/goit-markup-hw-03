@@ -12,6 +12,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     h1, h2, h3, h4, h5, h6, p {
@@ -120,16 +121,23 @@ color: #434455;
 /*-----------------Hero----------------*/
 
 .hero {
-    background-color: #2e2f42;
-    
+    background-color: #2e2f42;  
+}
+
+.hero-container {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-title {
-    
+   margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
     width: 496px;
-    height: 120px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -155,7 +163,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-cursor: pointer;}
+cursor: pointer;
+}
+
 
 .hero-btn:hover,.hero-btn:focus {
  background-color: #404bbf;
@@ -181,11 +191,13 @@ cursor: pointer;}
 }
 
 .features-subtitle {
+    padding-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+gap: 24px;
 }
 
 .features-text {
@@ -199,6 +211,7 @@ color: #434455;
 /*---------------Team---------------*/
 .team {
     background: #f4f4fd;
+
 }
 .team-title {
     padding-top: 120px;
@@ -212,11 +225,13 @@ color: #2e2f42;
 }
 .team-list {
 display: flex;
+justify-content: center;
 gap: 24px;
 
 
 }
 .team-item {
+    margin-bottom: 120px;
     border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px;
 width: 264px;
@@ -225,6 +240,7 @@ background: #fff;
 width: calc(100% - 288px) / 4;
 }
 .team-subtitle {
+    padding-top: 32px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -233,6 +249,7 @@ text-align: center;
 color: #2e2f42;
 }
 .team-text {
+    padding-top: 8px;
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -264,8 +281,8 @@ color: #2e2f42;
 }
 
 .portfolio-item {
-    width: 360px;
-height: 300px;
+    flex: 0 1 calc((100% - 48px) / 3);
+    max-width: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
@@ -295,4 +312,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+}
+
+footer-container {
+    width: 1440px;
+height: 312px;
 }
