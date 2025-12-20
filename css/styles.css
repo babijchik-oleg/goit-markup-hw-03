@@ -125,8 +125,8 @@ color: #434455;
 }
 
 .hero-container {
-    width: 1440px;
-    height: 600px;
+    padding-top: 180px;
+    padding-bottom: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +177,7 @@ cursor: pointer;
 .features {
 }
 
-.features-title {
+.visually-hidden {
 
   position: absolute;
   width: 1px;
@@ -196,12 +196,12 @@ cursor: pointer;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 144px;
-    padding-right: 144px;
+
 }
 
 .features-item {
-    width: calc(100%-288px) / 4;
+    width: 264px;
+    height: 104px;
 }
 
 .features-subtitle {
@@ -237,21 +237,23 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
+
 .team-list {
+    margin-right: 156px;
+    margin-left: 156px;
 display: flex;
 justify-content: center;
 gap: 24px;
-
-
 }
+
 .team-item {
+    
     margin-bottom: 120px;
     border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px;
 width: 264px;
 height: 380px;
 background: #fff;
-width: calc(100% - 288px) / 4;
 }
 .team-subtitle {
     padding-top: 32px;
@@ -272,6 +274,10 @@ text-align: center;
 color: #434455;
 }
 
+.container-team-text {
+    width: 232px;
+height: 56px;
+}
 /*------------------Portfolio-----------*/
 .portfolio {
     
