@@ -121,12 +121,11 @@ color: #434455;
 /*-----------------Hero----------------*/
 
 .hero {
-    background-color: #2e2f42;  
+    background-color: #2e2f42;
+    padding: 188px 0;  
 }
 
 .hero-container {
-    padding-top: 180px;
-    padding-bottom: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,6 +174,7 @@ cursor: pointer;
 /*---------------Features---------------*/
 
 .features {
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -194,8 +194,7 @@ cursor: pointer;
 .features-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 0;
 
 }
 
@@ -225,11 +224,11 @@ color: #434455;
 /*---------------Team---------------*/
 .team {
     background: #f4f4fd;
-
+    padding: 120px 0;
 }
 .team-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
+   padding: 0;
+    margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -239,15 +238,11 @@ color: #2e2f42;
 }
 
 .team-list {
-    margin-right: 156px;
-    margin-left: 156px;
 display: flex;
-justify-content: center;
 gap: 24px;
 }
 
 .team-item {
-    
     margin-bottom: 120px;
     border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px;
@@ -255,8 +250,9 @@ width: 264px;
 height: 380px;
 background: #fff;
 }
+
 .team-subtitle {
-    padding-top: 32px;
+    margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -265,7 +261,6 @@ text-align: center;
 color: #2e2f42;
 }
 .team-text {
-    padding-top: 8px;
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -275,16 +270,16 @@ color: #434455;
 }
 
 .container-team-text {
+    padding: 32px 16px;
     width: 232px;
 height: 56px;
 }
 /*------------------Portfolio-----------*/
 .portfolio {
-    
+    padding: 120px 0;
 }
 .portfolio-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
